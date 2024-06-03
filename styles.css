@@ -50,10 +50,6 @@ header h1 {
     margin-top: 0;
 }
 
-.shadow-link:hover {
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-  }
-
 main {
     padding: 20px 0;
 }
