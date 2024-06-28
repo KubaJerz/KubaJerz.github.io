@@ -74,3 +74,42 @@ footer p {
     margin: 0;
 }
 
+.project-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.project-item {
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.project-item h3 {
+    margin-bottom: 10px;
+}
+
+.short-desc {
+    font-style: italic;
+}
+
+.detailed-desc {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    z-index: 10;
+    width: 100%;
+}
+
+.project-item:hover .detailed-desc {
+    display: block;
+}
+
