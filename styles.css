@@ -76,7 +76,7 @@ footer p {
 
 .project-list {
     list-style-type: none;
-    padding: 0;
+    padding: 10;
 }
 
 .project-item {
