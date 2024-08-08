@@ -7,6 +7,7 @@
     --link-color: #68a7e2;
 }
 
+
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +15,7 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Raleway','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--background-color);
