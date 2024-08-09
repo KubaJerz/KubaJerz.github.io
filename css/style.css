@@ -1,7 +1,8 @@
 :root {
     --primary-color: #11234a;
+    --primary-color-faded:rgba(17, 35, 74, 0.543);
     --secondary-color: #3d719166;
-    --background-color: #080d13;
+    --background-color: #030609;
     --nav-color: #001D31;
     --title-color: #ffffff;
     --text-color: #ffffff;
@@ -30,7 +31,7 @@ body {
 }
 
 header {
-    background-color: var(--primary-color);
+    background-color: var(--primary-color-faded);
     color: #fff;
     padding: .6rem 0;
 }
