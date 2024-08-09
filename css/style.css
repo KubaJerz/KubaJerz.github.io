@@ -1,12 +1,13 @@
 :root {
-    --primary-color: #010811;
-    --secondary-color: #3d7191;
+    --primary-color: #11234a;
+    --secondary-color: #3d719166;
     --background-color: #080d13;
+    --nav-color: #001D31;
     --title-color: #ffffff;
     --text-color: #ffffff;
-    --link-color: #68a7e2;
+    --link-color: #ffffff;
+    --link-hover-color: #b9d4ee;
 }
-
 
 * {
     margin: 0;
@@ -15,7 +16,7 @@
 }
 
 body {
-    font-family: 'Raleway','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Raleway', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--background-color);
@@ -41,7 +42,7 @@ header h1 {
 }
 
 nav {
-    background-color: rgba(9, 29, 49, 0.9);
+    background-color: var(--nav-color);
     padding: 1rem 0;
     position: sticky;
     top: 0;
@@ -121,6 +122,15 @@ p {
 
 .bio-sidebar {
     flex: 1;
+}
+
+.bio-sidebar a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+.bio-sidebar a:hover {
+    color: var(--link-hover-color);
 }
 
 .bio-content {
