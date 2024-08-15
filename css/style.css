@@ -196,7 +196,6 @@ footer {
 footer img{
     height: 2rem;
     width: auto;
-
 }
 
 footer a {
@@ -216,6 +215,9 @@ footer a:hover {
     }
     .bio-content {
         margin-left: 0;
+    }
+    .bio-container {
+        gap: 0rem;
     }
 
 }
