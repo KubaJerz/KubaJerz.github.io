@@ -220,4 +220,8 @@ footer a:hover {
         gap: 0rem;
     }
 
+    .bio-sidebar {
+        margin-top: 1rem;
+    }
+
 }
