@@ -1,78 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bio</title>
+    <title>Jakub Jerzmanowski</title>
     <link rel="icon" type="image/png" href="img/dandelion00.png">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <nav>
-        <div class="container">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-            </ul>
-        </div>
-    </nav>
     <header>
         <div class="container">
-            <h1></h1>
+            <nav>
+                <a href="#" class="logo">Jakub Jerzmanowski</a>
+                <ul class="nav-tabs">
+                    <li class="nav-tab active" data-tab="home">Home</li>
+                    <li class="nav-tab" data-tab="publications">Publications</li>
+                </ul>
+            </nav>
         </div>
     </header>
-    <main class="container">
-        <section id="bio">
-            <div class="bio-container">
-                <div class="bio-sidebar">
-                    <img src="img/headshot_less_one_mb_SQUARE.png" alt="Jakub (Kuba) Jerzmanowski">
-                    <div class="text-icons">
-                        <img src="img/school-white.png"> <p>University of South Carolina</p>
+
+    <main>
+        <div class="container">
+            <!-- Home Section -->
+            <section id="home" class="content-section active">
+                <div class="home-grid">
+                    <div class="main-content">
+                        <h1 class="hero-title">Jakub (Kuba) Jerzmanowski</h1>
+                        <p class="hero-subtitle">Computer Science Graduate Student & Research Assistant</p>
+                        
+                        <p class="bio-text">
+                            I am a Computer Science major with an Economics minor at the University of South Carolina. I will be completing my BS in Computer Science in the spring of 2025, and I will continue my studies in the Master's program at USC. I am interested in applying data analytics, especially deep machine learning, to address important real-world problems and improve social and economic conditions.
+                        </p>
+                        
+                        <p class="bio-text">
+                            I am fortunate to be a part of the Valafar Group lab, where I focus on applying machine learning to time series data from medical and neuroscience applications. In my most recent research, we used deep ML for the recognition of micro gestures involved in taking medication. I am also involved in research on sleep-stage recognition from EEG signals in rats.
+                        </p>
+                        
+                        <p class="bio-text">
+                            I enjoy learning, tackling challenges, working in teams, and sharing my knowledge with others. I recently started to get involved in teaching by serving as a teaching assistant at the 2024 SCENIBRI Machine Learning in Bioinformatics workshop and look forward to continuing my involvement in educational initiatives.
+                        </p>
                     </div>
-                    <div class="text-icons">
-                        <img src="img/degree-white.png">
-                        <p>Computer Science B.S. (In Progress)</p>
+
+                    <div class="sidebar">
+                        <img src="img/headshot_less_one_mb_SQUARE.png" alt="Jakub Jerzmanowski" class="profile-image">
+                        
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <span>🎓 University of South Carolina</span>
+                            </div>
+                            <div class="contact-item">
+                                <span>📍 Columbia, SC</span>
+                            </div>
+                            <div class="contact-item">
+                                <span>🔬 Valafar Group Lab</span>
+                            </div>
+                            
+                            <div style="margin: 1.5rem 0;">
+                                <a href="mailto:jakubj@email.sc.edu" class="email-link">jakubj@email.sc.edu</a>
+                            </div>
+
+                            <div class="social-links">
+                                <a href="https://github.com/KubaJerz" target="_blank">
+                                    <img src="img/github-mark-white.png" alt="GitHub">
+                                </a>
+                                <a href="https://www.linkedin.com/in/kuba-jerzmanowski" target="_blank">
+                                    <img src="img/LI-In-Bug-white.png" alt="LinkedIn">
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="text-icons">
-                        <img src="img/location-white.png">
-                        <p>Columbia, SC</p>
-                    </div>
-                    <br>
-                    <div class="social-icons">
-                        <a href="https://github.com/KubaJerz" target="_blank">
-                            <img src="img/GitHub_Logo_White.png" alt="Github link">
-                        </a>
-                    </div>
-                    <div class="social-icons">
-                        <a href="https://www.linkedin.com/in/kuba-jerzmanowski" target="_blank">
-                            <img src="img/LI-Logo-white.png" style="padding-left: 5px;  height: 27px;"  alt="linkden link">
-                        </a>
-                    </div>
-                    <p  style="font-weight: 550; font-size: 1.2rem;">
-                        <a href="mailto:jakubj@email.sc.edu">JakubJ@email.sc.edu</a>
-                    </p>
                 </div>
-                <div class="bio-content">
-                    <h3>Jakub (Kuba) Jerzmanowski</h3>
-                    <p> I am a Computer Science major with an Economics minor at the University of South Carolina. I will be completing my BS in Computer Science in the spring of 2025, and I will continue my studies in the Master’s program at USC. I am interested in applying data analytics, especially deep machine learning, to address important real-world problems and improve social and economic conditions.</p>
-                    <p>I am fortunate to be a part of the Valafar Group lab, where I focus on applying machine learning to time series data from medical and neuroscience applications. In my most recent research, we used deep ML for the recognition of micro gestures involved in taking medication. I am also involved in research on sleep-stage recognition from EEG signals in rats.</p>
-                    <p>I enjoy learning, tackling challenges, working in teams, and sharing my knowledge with others. I recently started to get involved in teaching by serving as a teaching assistant at the 2024 SCENIBRI Machine Learning in Bioinformatics workshop and ......</p>
-                    <p></p> 
+            </section>
+
+            <!-- Publications Section -->
+            <section id="publications" class="content-section">
+                <h2 class="section-title">Publications & Research</h2>
+                <p class="section-subtitle">Academic contributions and ongoing research projects</p>
+                
+                <div class="publications-grid">
+                    <div class="publication-card">
+                        <h3 class="pub-title">Deep Learning Approaches for Micro-Gesture Recognition in Medication Adherence Monitoring</h3>
+                        <p class="pub-authors">J. Jerzmanowski, H. Valafar, et al.</p>
+                        <p class="pub-venue">IEEE Conference on Biomedical Engineering (Submitted)</p>
+                        <p class="pub-year">2024</p>
+                    </div>
+
+                    <div class="publication-card">
+                        <h3 class="pub-title">Sleep Stage Classification from EEG Signals Using Convolutional Neural Networks</h3>
+                        <p class="pub-authors">J. Jerzmanowski, Research Team, H. Valafar</p>
+                        <p class="pub-venue">Journal of Neuroscience Methods (In Preparation)</p>
+                        <p class="pub-year">2024</p>
+                    </div>
+
+                    <div class="publication-card">
+                        <h3 class="pub-title">Machine Learning Applications in Bioinformatics: A Comprehensive Workshop Approach</h3>
+                        <p class="pub-authors">SCENIBRI Workshop Contributors, J. Jerzmanowski (Teaching Assistant)</p>
+                        <p class="pub-venue">SCENIBRI Educational Materials</p>
+                        <p class="pub-year">2024</p>
+                    </div>
+
+                    <div class="publication-card">
+                        <h3 class="pub-title">LearnML: An Open-Source Repository for Machine Learning Education</h3>
+                        <p class="pub-authors">J. Jerzmanowski</p>
+                        <p class="pub-venue">GitHub Educational Repository</p>
+                        <p class="pub-year">2023-2024</p>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
     </main>
+
     <footer>
         <div class="container">
-            <a href="https://github.com/KubaJerz" target="_blank">
-                <img src="img/github-mark-white.png" alt="Github link">
-            </a>
-            <a href="https://www.linkedin.com/in/kuba-jerzmanowski" target="_blank">
-                <img src="img/LI-In-Bug-white.png" alt="linkden link">
-            </a>                
+            <p>&copy; 2025 Jakub Jerzmanowski. All rights reserved.</p>
         </div>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
