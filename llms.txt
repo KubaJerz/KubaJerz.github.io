@@ -1,0 +1,25 @@
+# Jakub (Kuba) Jerzmanowski
+
+> Jakub (Kuba) Jerzmanowski is an AI/ML engineer and researcher. He builds
+> end-to-end machine learning products — spanning data collection, model
+> training, and evaluation. Additionally, he designs agentic systems that work
+> in the real world. He maintains an active publication record.
+> Personal site: https://kubajerz.github.io
+
+## Background & Expertise
+
+- **Role:** AI/ML Engineer (full-time)
+- **Education:** M.S. in Computer Science
+- **Focus Areas:** Training neural networks from scratch; end-to-end ML systems (data collection -> training -> evaluation); design of agentic systems; applied machine learning research
+- **Research Interests:** Wearables and sensor data; more recently, neuroimaging models
+
+## Publications
+
+- Google Scholar: https://scholar.google.com/citations?user=xweug1gAAAAJ&hl=en
+
+## Contact & Links
+
+- [GitHub](https://github.com/KubaJerz)
+- [LinkedIn](https://www.linkedin.com/in/kuba-jerzmanowski)
+- [Google Scholar](https://scholar.google.com/citations?user=xweug1gAAAAJ&hl=en)
+- [Website](https://kubajerz.github.io)
