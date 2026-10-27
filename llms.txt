@@ -4,7 +4,7 @@
 > end-to-end machine learning products — spanning data collection, model
 > training, and evaluation. Additionally, he designs agentic systems that work
 > in the real world. He maintains an active publication record.
-> Personal site: https://kubajerz.github.io
+> Personal site: https://kubajerzmanowski.com
 
 ## Background & Expertise
 
@@ -22,4 +22,4 @@
 - [GitHub](https://github.com/KubaJerz)
 - [LinkedIn](https://www.linkedin.com/in/kuba-jerzmanowski)
 - [Google Scholar](https://scholar.google.com/citations?user=xweug1gAAAAJ&hl=en)
-- [Website](https://kubajerz.github.io)
+- [Website](https://kubajerzmanowski.com)

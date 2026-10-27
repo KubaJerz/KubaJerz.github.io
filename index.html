@@ -5,12 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <meta name="description" content="Personal site of Jakub (Kuba) Jerzmanowski — AI / ML engineer building custom deep learning models with research groups." />
-<link rel="canonical" href="https://kubajerz.github.io/" />
+<link rel="canonical" href="https://kubajerzmanowski.com/" />
 
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Kuba Jerzmanowski — AI / ML Engineer" />
 <meta property="og:description" content="Building and plumbing systems that are useful." />
-<meta property="og:url" content="https://kubajerz.github.io/" />
+<meta property="og:url" content="https://kubajerzmanowski.com/" />
 
 <title>Kuba Jerzmanowski</title>
 
@@ -20,7 +20,7 @@
   "@type": "Person",
   "name": "Jakub Jerzmanowski",
   "alternateName": "Kuba Jerzmanowski",
-  "url": "https://kubajerz.github.io",
+  "url": "https://kubajerzmanowski.com",
   "jobTitle": "AI/ML Engineer",
   "description": "AI/ML engineer and researcher building end-to-end machine learning products, from data collection through model training and evaluation.",
   "knowsAbout": ["Machine Learning", "Neural Networks", "Wearable Sensors", "Neuroimaging"],
@@ -227,6 +227,10 @@
 
   /* ---------- Footer ---------- */
   .foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
     margin: 96px var(--pad-x) 0;
     padding: 24px 0 30px;
     border-top: 1px solid var(--hair);
@@ -235,6 +239,16 @@
     text-transform: uppercase;
     color: var(--label);
   }
+  .foot__mark {
+    display: block;
+    width: 56px;
+    height: 56px;
+    object-fit: contain;
+    opacity: .85;
+    mix-blend-mode: multiply;
+    transition: opacity .25s ease;
+  }
+  .foot__mark:hover { opacity: 1; }
 
   /* ---------- Reveal on scroll ---------- */
   .reveal {
@@ -366,7 +380,10 @@
       </section>
     </main>
 
-    <footer class="foot">&copy; 2026 All rights reserved</footer>
+    <footer class="foot">
+      <span>&copy; 2026 All rights reserved</span>
+      <img class="foot__mark" src="img/plumber.png" alt="Pen-and-ink sketch of plumbing at work" width="56" height="56" />
+    </footer>
   </div>
 
   <script>
